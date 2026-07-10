@@ -1,71 +1,77 @@
-[10:40:21] [main/INFO]: Using mbed TLS based native cipher.
-[10:40:21] [main/INFO]: Using zlib based native compressor.
-[10:40:21] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
-[10:40:21] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[10:40:21] [main/INFO]: Epoll is working, utilising it!
-[10:40:22] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[10:40:22] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[10:40:22] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[10:40:22] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[10:40:22] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[10:40:22] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[10:40:22] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=513, git=f6069e2)
-[10:40:22] [main/INFO]: Attempting to Jenkins download module cmd_alert v513
-[10:40:22] [main/INFO]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.19/builds/513/downloads/cmd_alert-1.19-513.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
-[10:40:22] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=513, git=f6069e2)
-[10:40:22] [main/INFO]: Attempting to Jenkins download module cmd_find v513
-[10:40:22] [main/INFO]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.19/builds/513/downloads/cmd_find-1.19-513.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
-[10:40:22] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=513, git=f6069e2)
-[10:40:22] [main/INFO]: Attempting to Jenkins download module cmd_list v513
-[10:40:22] [main/INFO]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.19/builds/513/downloads/cmd_list-1.19-513.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
-[10:40:22] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=513, git=f6069e2)
-[10:40:22] [main/INFO]: Attempting to Jenkins download module cmd_send v513
-[10:40:23] [main/INFO]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.19/builds/513/downloads/cmd_send-1.19-513.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
-[10:40:23] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=513, git=f6069e2)
-[10:40:23] [main/INFO]: Attempting to Jenkins download module cmd_server v513
-[10:40:23] [main/INFO]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.19/builds/513/downloads/cmd_server-1.19-513.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
-[10:40:23] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=513, git=f6069e2)
-[10:40:23] [main/INFO]: Attempting to Jenkins download module reconnect_yaml v513
-[10:40:23] [main/INFO]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.19/builds/513/downloads/reconnect_yaml-1.19-513.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
-[10:40:23] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[10:40:23] [main/WARN]: :>  
-[10:40:23] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
-[10:40:23] [main/WARN]: :>  
-[10:40:23] [main/WARN]: :>  This plugin wasn't tested to be 'working'
-[10:40:23] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
-[10:40:23] [main/WARN]: :>  apart from the versions listed below:
-[10:40:23] [main/WARN]: :>  
-[10:40:23] [main/WARN]: :>  - BungeeCord: 1.20-R0.2-SNAPSHOT:231024b:1777
-[10:40:23] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:d85fe36:556
-[10:40:23] [main/WARN]: :>  - FlameCord: 1.1.1
-[10:40:23] [main/WARN]: :>  
-[10:40:23] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
-[10:40:23] [main/WARN]: :>  
-[10:40:23] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
-[10:40:23] [main/WARN]: :>  
-[10:40:23] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[10:40:23] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
-[10:40:24] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
-[10:40:24] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.9 by lax1dude
-[10:40:24] [main/WARN]: Forced host server pvp is not defined
-[10:40:24] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
-[10:40:24] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
-[10:40:24] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[10:40:24] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.9 by lax1dude
-[10:40:24] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
-[10:41:12] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40550]: Connected via websocket
-[10:41:12] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40550]: Origin header is https://r12jp12.github.io
-[10:41:12] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40550]: Logged in as 'GRREEN'
-[10:41:12] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40550|GRREEN] -> UpstreamBridge has connected
-[10:41:13] [Netty Worker IO Thread #2/INFO]: [GRREEN|/[0:0:0:0:0:0:0:1%0]:40550] <-> ServerConnector [lobby] has connected
-[10:41:34] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40550|GRREEN] -> UpstreamBridge has disconnected
-[10:41:34] [Netty Worker IO Thread #2/INFO]: [GRREEN] disconnected with: Proxy lost connection to server.
-[10:41:34] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40550|GRREEN] <-> DownstreamBridge <-> [lobby] has disconnected
-[10:42:39] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41030]: Connected via websocket
-[10:42:39] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41030]: Origin header is https://r12jp12.github.io
-[10:42:39] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41030]: Logged in as 'GRREEN'
-[10:42:39] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41030|GRREEN] -> UpstreamBridge has connected
-[10:42:39] [Netty Worker IO Thread #3/INFO]: [GRREEN|/[0:0:0:0:0:0:0:1%0]:41030] <-> ServerConnector [lobby] has connected
-[10:53:22] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41030|GRREEN] -> UpstreamBridge has disconnected
-[10:53:22] [Netty Worker IO Thread #3/INFO]: [GRREEN] disconnected with: Proxy lost connection to server.
-[10:53:22] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41030|GRREEN] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:40:29] [main/INFO]: Using mbed TLS based native cipher.
+[11:40:29] [main/INFO]: Using zlib based native compressor.
+[11:40:29] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[11:40:29] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[11:40:29] [main/INFO]: Epoll is working, utilising it!
+[11:40:29] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[11:40:29] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[11:40:29] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[11:40:29] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[11:40:29] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[11:40:29] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[11:40:29] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=513, git=f6069e2)
+[11:40:29] [main/INFO]: Attempting to Jenkins download module cmd_alert v513
+[11:40:30] [main/INFO]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.19/builds/513/downloads/cmd_alert-1.19-513.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
+[11:40:30] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=513, git=f6069e2)
+[11:40:30] [main/INFO]: Attempting to Jenkins download module cmd_find v513
+[11:40:30] [main/INFO]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.19/builds/513/downloads/cmd_find-1.19-513.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
+[11:40:30] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=513, git=f6069e2)
+[11:40:30] [main/INFO]: Attempting to Jenkins download module cmd_list v513
+[11:40:30] [main/INFO]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.19/builds/513/downloads/cmd_list-1.19-513.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
+[11:40:30] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=513, git=f6069e2)
+[11:40:30] [main/INFO]: Attempting to Jenkins download module cmd_send v513
+[11:40:30] [main/INFO]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.19/builds/513/downloads/cmd_send-1.19-513.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
+[11:40:30] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=513, git=f6069e2)
+[11:40:30] [main/INFO]: Attempting to Jenkins download module cmd_server v513
+[11:40:30] [main/INFO]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.19/builds/513/downloads/cmd_server-1.19-513.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
+[11:40:30] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=513, git=f6069e2)
+[11:40:30] [main/INFO]: Attempting to Jenkins download module reconnect_yaml v513
+[11:40:31] [main/INFO]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.19/builds/513/downloads/reconnect_yaml-1.19-513.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
+[11:40:31] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[11:40:31] [main/WARN]: :>  
+[11:40:31] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[11:40:31] [main/WARN]: :>  
+[11:40:31] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[11:40:31] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[11:40:31] [main/WARN]: :>  apart from the versions listed below:
+[11:40:31] [main/WARN]: :>  
+[11:40:31] [main/WARN]: :>  - BungeeCord: 1.20-R0.2-SNAPSHOT:231024b:1777
+[11:40:31] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:d85fe36:556
+[11:40:31] [main/WARN]: :>  - FlameCord: 1.1.1
+[11:40:31] [main/WARN]: :>  
+[11:40:31] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[11:40:31] [main/WARN]: :>  
+[11:40:31] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[11:40:31] [main/WARN]: :>  
+[11:40:31] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[11:40:31] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[11:40:32] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[11:40:32] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.9 by lax1dude
+[11:40:32] [main/WARN]: Forced host server pvp is not defined
+[11:40:32] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[11:40:32] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[11:40:32] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[11:40:32] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.9 by lax1dude
+[11:40:32] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[11:41:02] [Netty Worker IO Thread #0/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/eagler-serverchatgpt/bungee/server-icon.png
+[11:41:06] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60282]: Connected via websocket
+[11:41:06] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60282]: Origin header is http://localhost:8081
+[11:41:07] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60282]: Logged in as 'YeegYigg609'
+[11:41:07] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:60282|YeegYigg609] -> UpstreamBridge has connected
+[11:41:07] [Netty Worker IO Thread #1/INFO]: [YeegYigg609|/[0:0:0:0:0:0:0:1%0]:60282] <-> ServerConnector [lobby] has connected
+[11:41:37] [Netty Worker IO Thread #1/INFO]: [YeegYigg609] disconnected with: Login timed out!
+[11:41:37] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:60282|YeegYigg609] -> UpstreamBridge has disconnected
+[11:41:37] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:60282|YeegYigg609] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:46:55] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40566]: Connected via websocket
+[11:46:55] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40566]: Origin header is http://localhost:8081
+[11:46:56] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40566]: Logged in as 'GRREEN'
+[11:46:56] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40566|GRREEN] -> UpstreamBridge has connected
+[11:46:56] [Netty Worker IO Thread #2/INFO]: [GRREEN|/[0:0:0:0:0:0:0:1%0]:40566] <-> ServerConnector [lobby] has connected
+[11:50:24] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40566|GRREEN] -> UpstreamBridge has disconnected
+[11:50:24] [Netty Worker IO Thread #2/INFO]: [GRREEN] disconnected with: Proxy lost connection to server.
+[11:50:24] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40566|GRREEN] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:51:10] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53976]: Connected via websocket
+[11:51:10] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53976]: Origin header is http://localhost:8081
+[11:51:11] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53976]: Logged in as 'GRREEN'
+[11:51:11] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:53976|GRREEN] -> UpstreamBridge has connected
+[11:51:11] [Netty Worker IO Thread #0/INFO]: [GRREEN|/[0:0:0:0:0:0:0:1%0]:53976] <-> ServerConnector [lobby] has connected
